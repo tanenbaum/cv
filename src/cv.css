@@ -1,0 +1,41 @@
+body {
+    background-color: #23241f;
+    padding-left: 25px;
+    font-family: monospace;
+}
+
+pre {
+    white-space: pre-wrap;     
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap;     
+    white-space: -o-pre-wrap;   
+    word-wrap: break-word;
+}
+
+code > .hljs-attribute:first-child, code > .hljs-attribute:first-child + .hljs-value  {
+    font-size: xx-large;
+}
+
+code > span.hljs-attribute {
+    font-size: larger;
+}
+
+.hljs-string, .hljs-number {
+    color: #e6db74;
+}
+
+.hljs-string {
+    max-width: 600px;
+}
+
+.hljs-attribute {
+    color: #f92672;
+}
+
+.hljs-value .hljs-attribute {
+    color: #ae81ff;
+}
+
+code {
+    color: #002B72;
+}
