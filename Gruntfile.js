@@ -1,4 +1,6 @@
-var compile = require('./src/compile');
+var cvYaml = './static/cv.yaml'
+
+var compile = require('./src/compile')(cvYaml)
 
 module.exports = function(grunt) {
 
@@ -9,15 +11,15 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           flatten: true,
-          src: 'src/index.md',
+          src: 'static/index.md',
           dest: 'build',
           ext: '.html'
         }]
       },
       options: {
-        template: 'src/template.html',
+        template: 'static/template.html',
         // template variables, title etc.
-        templateContext: compile.data,
+        templateContext: compile.context,
         markdownOptions: {
           gfm: true,
           highlight: 'manual'
@@ -32,7 +34,7 @@ module.exports = function(grunt) {
         dest: "build"
       },
       options: {
-        cssPath: 'src/pdf.css',
+        cssPath: 'build/pdf.css',
         remarkable: {
           html: true
         }
@@ -40,7 +42,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: 'src/*',
+        files: 'static/*',
         tasks: ['html', 'pdf'],
         options: {
           spawn: false,
@@ -51,11 +53,11 @@ module.exports = function(grunt) {
       css: {
         expand: true,
         flatten: true,
-        src: 'src/*.css',
+        src: 'static/*.css',
         dest: 'build/'
       },
       compile: {
-        src: 'src/pdf.md',
+        src: 'static/pdf.md',
         dest: 'build/cv.md',
         options: {
           process: function (src) {
@@ -64,15 +66,15 @@ module.exports = function(grunt) {
         }
       }
     }
-  });
+  })
 
-  grunt.loadNpmTasks('grunt-markdown');
-  grunt.loadNpmTasks('grunt-markdown-pdf');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-markdown')
+  grunt.loadNpmTasks('grunt-markdown-pdf')
+  grunt.loadNpmTasks('grunt-contrib-watch')
+  grunt.loadNpmTasks('grunt-contrib-copy')
 
-  grunt.registerTask('html', ['markdown', 'copy:css']);
-  grunt.registerTask('pdf', ['copy:css', 'copy:compile', 'markdownpdf']);
+  grunt.registerTask('html', ['markdown', 'copy:css'])
+  grunt.registerTask('pdf', ['copy:css', 'copy:compile', 'markdownpdf'])
 
-  grunt.registerTask('default', ['html', 'pdf', 'watch']);
-};
+  grunt.registerTask('default', ['html', 'pdf', 'watch'])
+}
