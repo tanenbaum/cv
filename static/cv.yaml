@@ -1,0 +1,89 @@
+personal:
+    name:       Joseph R. Shaw
+    github:     https://github.com/tanenbaum
+    address:    <address here>
+    phone:      <mobile here>
+    email:      <email here>
+
+employment:
+    - where:    The Test People, Leeds
+      when:     2015 - 2016
+      title:    Senior Technical Consultant
+      _meta:    
+                - Working autonomously to deliver software testing solutions, typically as a lead engineer on client site.
+                - "Developed creative testing solutions, such as verification of large scale DNS migrations 
+                and automation of modern single page web applications."
+                - Involved in performance engineering, planning, execution and data analysis.
+
+    - where:    X-Lab Ltd, Leeds
+      when:     2010 - 2015
+      title:    Lead Developer
+      _meta:
+                - Responsible for the delivery and support of scalable, distributed healthcare systems.
+                - "Led development of multiple systems, including a complex questionnaire management solution, 
+                with an embedded domain specific language for dynamic scoring/calculations."
+                - Integrated an open source federated identity solution into a regional patient management system.
+                - "Leading, mentoring and encouraging the success of the team members. Proactive in encouraging collaboration, 
+                providing feedback and raising standards in development."
+                - "Worked closely with numerous clients, from project inception through to sign-off. 
+                Used agile methods to deliver systems that meet expectations; justifying technical decisions where necessary."
+                - "Steered company-wide technology and software development strategies. 
+                Supported the introduction of end-to-end UI testing, 
+                continuous delivery of all projects and peer code review."
+    
+    - where:    University of Leeds
+      when:     2009 - 2010
+      title:    Postgraduate Research
+      _meta:
+                - Use of functional languages and applications in GPGPU parallel programming.
+                - Creating a domain-specific embedded language, targeting graphics pipelines and hardware design.
+                      
+    - where:    SourceIT
+      when:     2008 - 2010
+      title:    Software Consultant
+      _meta:    
+                - Windows/Symbian phone implementations of a nutritional management application.
+                - Various web development projects, including a bespoke social networking community for fertility planning. 
+
+    - where:    Biossystems Group, University of Leeds
+      when:     2009
+      title:    Internship Student
+      _meta: 
+                - Real-time rendering of an AI nematode worm simulation within a simple desktop application.
+
+education:
+    - type:     B.Sc. Computing
+      grade:    First-class honours
+      where:    University of Leeds
+      when:     2006 - 2009
+      _meta: 
+                - Specialised in the study of artificial intelligence and operations research.
+                - "Finalist project concentrated on swarm intelligence, particularly of ant colonies, 
+                with respect to sorting and clustering. 
+                Using BEAST (Bio-inspired Evolutionary Agent Simulation Toolkit) to leverage neural networks 
+                and genetic algorithms to produce a bio-inspired AI alternative to the traditional mathematical 
+                model of insect behaviour."
+
+    - type:     A-Levels
+      grade:    Computing, Physics, Use of Mathematics, Music Technology
+      where:    Barnsley College
+      when:     2004 - 2006
+
+achievements:
+    - what:     Dean's List
+      where:    University of Leeds
+      when:     2007 and 2008
+      _meta:    Awarded to students with a top 5% grade in the Faculty of Engineering.
+    
+    - what:     Outstanding Achievement in A-Level Computing
+      where:    Barnsley College
+      when:     2006
+
+languages:
+    primary:    C#, F#, Haskell, JavaScript
+    secondary:  Ruby, Python, C++
+    familiar:   Java, C, shell scripting
+
+applications:
+    platforms:  .NET, Node.js, ASP.NET, Azure
+    libraries:  EntityFramework, SignalR, FParsec, Knockout, Backbone
