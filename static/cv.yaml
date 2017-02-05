@@ -6,7 +6,7 @@ personal:
     email:      <email here>
 
 employment:
-    - where:    cap hpi
+    - where:    cap hpi, Leeds
       when:     2016 - 2017
       title:    Senior Software Developer
       _meta:
@@ -26,10 +26,10 @@ employment:
       title:    Lead Developer
       _meta:
                 - Responsible for the delivery and support of scalable, distributed healthcare systems.
-                - "Led development of multiple systems, including a complex questionnaire management solution, 
+                - "Led development of multiple projects, including a complex questionnaire management solution, 
                 with an embedded domain specific language for dynamic scoring/calculations."
                 - Integrated an open source federated identity solution into a regional patient management system.
-                - "Leading, mentoring and encouraging the success of the team members. Proactive in encouraging collaboration, 
+                - "Leading, mentoring and supporting development team members. Proactive in encouraging collaboration, 
                 providing feedback and raising standards in development."
                 - "Worked closely with numerous clients, from project inception through to sign-off. 
                 Used agile methods to deliver systems that meet expectations; justifying technical decisions where necessary."

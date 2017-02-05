@@ -2,7 +2,7 @@
 
 # CV: {{name}}
 
-Joe is a keen technologist and full-stack software engineer with a passion for elegant code and software design. He is proactive in identifying new trends and strategies to inform implementation, continuous integration and delivery.
+Joe is a full-stack software engineer with a passion for elegant code and software design. He is proactive in identifying new trends and strategies to inform implementation, continuous integration and delivery.
 
 <table>
 <tr><td width="33%">email - {{email}}</td><td width="33%">phone - {{phone}}</td><td width="33%">GitHub - {{github}}</td></tr>
@@ -44,8 +44,8 @@ A proficient developer in a variety of programming languages.
 #### Tooling
 
   - Comfortable using a variety of operating systems and typical development environments.
-  - Provisioning of virtual machines and containers: Vagrant, docker, lxc, Powershell DSC, Octopus Deploy.
-  - Configured and maintained continuous integration tools to automate builds, perform static analysis and linting, automate testing and deployment: TFBuild, Team City, Jenkins, Travis CI.
+  - Provisioning of virtual machines and containers: Vagrant, docker, lxc, Powershell DSC.
+  - Configured and maintained continuous integration tools to automate builds, perform static analysis and linting, automate testing and deployment: TFBuild, Team City, Jenkins, Travis CI, Octopus Deploy.
   - Created and maintained libraries through package management systems: NuGet, npm, bower.
   - Automated testing of applications, from core unit tests and regression testing to full end-to-end integration tests: N/XUnit, Mocha, Chai, Selenium grid with Watir Webdriver, automatic/generative specification testing with FsCheck.
   - Never without source control: Git, Mercurial, SVN, TFVC.
@@ -88,4 +88,4 @@ A proficient developer in a variety of programming languages.
 
 Born 17/08/1988. Married. Two cats.
 
-Interests include programming, game design, travel, film and reading science fiction.
+Interests include funtional programming, game design, travel, film and reading science fiction.
