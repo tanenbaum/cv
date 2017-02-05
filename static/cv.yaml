@@ -6,13 +6,19 @@ personal:
     email:      <email here>
 
 employment:
+    - where:    cap hpi
+      when:     2016 - 2017
+      title:    Senior Software Developer
+      _meta:
+                - Using Scrum to create, manage and support internal line of business applications.
+                - Replacement of vital legacy data analysis and forcasting systems with contemporary solutions.
     - where:    The Test People, Leeds
       when:     2015 - 2016
       title:    Senior Technical Consultant
       _meta:    
-                - Working autonomously to deliver software testing solutions, typically as a lead engineer on client site.
+                - Working autonomously to deliver software testing platforms, typically as a lead engineer on client site.
                 - "Developed creative testing solutions, such as verification of large scale DNS migrations 
-                and automation of modern single page web applications."
+                and automation of single page web applications."
                 - Involved in performance engineering, planning, execution and data analysis.
 
     - where:    X-Lab Ltd, Leeds
@@ -81,9 +87,9 @@ achievements:
 
 languages:
     primary:    C#, F#, Haskell, JavaScript
-    secondary:  Ruby, Python, C++
-    familiar:   Java, C, shell scripting
+    secondary:  Ruby, Python
+    familiar:   Java, C, C++
 
 applications:
     platforms:  .NET, Node.js, ASP.NET, Azure
-    libraries:  EntityFramework, SignalR, FParsec, Knockout, Backbone
+    libraries:  EntityFramework, Dapper, SignalR, FParsec, Angular, Vue.js, Backbone

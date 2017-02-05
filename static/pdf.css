@@ -1,5 +1,11 @@
+body {
+	font-family: "Lato";
+	font-size: 125%;
+}
+
 p {
     margin: 0 0 0.25em 0;
+    font-size: 1em;
 }
 
 h3 {
