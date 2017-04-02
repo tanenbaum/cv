@@ -65,6 +65,12 @@ module.exports = function(grunt) {
             return compile.preprocess(src)
           }
         }
+      },
+      docs: {
+        expand: true,
+        flatten: true,
+        src: ['build/index.html', 'build/cv.css'],
+        dest: 'docs'
       }
     }
   })
@@ -76,7 +82,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('html', ['markdown', 'copy:css'])
   grunt.registerTask('pdf', ['copy:css', 'copy:compile', 'markdownpdf'])
-  grunt.registerTask('build', ['html', 'pdf']);
+  grunt.registerTask('build', ['html', 'pdf'])
+  grunt.registerTask('gh-pages', ['html', 'copy:docs'])
 
   grunt.registerTask('default', ['html', 'pdf', 'watch'])
 }
