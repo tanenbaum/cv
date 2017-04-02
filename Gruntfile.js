@@ -1,8 +1,9 @@
-var cvYaml = './static/cv.yaml'
-
-var compile = require('./src/compile')(cvYaml)
+const cvYaml = './static/cv.yaml';
 
 module.exports = function(grunt) {
+
+  // specify --private=./static/cv.private.yaml etc. to overload private file
+  const compile = require('./src/compile')(cvYaml, grunt.option('private'))
 
   grunt.initConfig({
     // markdown -> html
