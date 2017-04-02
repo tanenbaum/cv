@@ -76,6 +76,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('html', ['markdown', 'copy:css'])
   grunt.registerTask('pdf', ['copy:css', 'copy:compile', 'markdownpdf'])
+  grunt.registerTask('build', ['html', 'pdf']);
 
   grunt.registerTask('default', ['html', 'pdf', 'watch'])
 }
