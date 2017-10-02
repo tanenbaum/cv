@@ -11,14 +11,14 @@ employment:
       title:    Senior Software Developer
       _meta:
                 - Using Scrum to create, manage and support internal line of business applications.
-                - Replacement of vital legacy data analysis and forcasting systems with contemporary solutions.
+                - Replacement of vital legacy data processing and forecasting systems with contemporary solutions.
     - where:    The Test People, Leeds
       when:     2015 - 2016
       title:    Senior Technical Consultant
       _meta:    
                 - Working autonomously to deliver software testing platforms, typically as a lead engineer on client site.
                 - "Developed creative testing solutions, such as verification of large scale DNS migrations 
-                and automation of single page web applications."
+                and exploration of single page applications."
                 - Involved in performance engineering, planning, execution and data analysis.
 
     - where:    X-Lab Ltd, Leeds
@@ -51,7 +51,7 @@ employment:
                 - Windows/Symbian phone implementations of a nutritional management application.
                 - Various web development projects, including a bespoke social networking community for fertility planning. 
 
-    - where:    Biossystems Group, University of Leeds
+    - where:    Biosystems Group, University of Leeds
       when:     2009
       title:    Internship Student
       _meta: 
@@ -66,9 +66,8 @@ education:
                 - Specialised in the study of artificial intelligence and operations research.
                 - "Finalist project concentrated on swarm intelligence, particularly of ant colonies, 
                 with respect to sorting and clustering. 
-                Using BEAST (Bio-inspired Evolutionary Agent Simulation Toolkit) to leverage neural networks 
-                and genetic algorithms to produce a bio-inspired AI alternative to the traditional mathematical 
-                model of insect behaviour."
+                Using BEAST (Bio-inspired Evolutionary Agent Simulation Toolkit) to apply neural networks 
+                and genetic algorithms."
 
     - type:     A-Levels
       grade:    Computing, Physics, Use of Mathematics, Music Technology
@@ -86,10 +85,10 @@ achievements:
       when:     2006
 
 languages:
-    primary:    C#, F#, Haskell, JavaScript
-    secondary:  Ruby, Python
+    primary:    C#, F#, JavaScript
+    secondary:  Ruby, Python, Haskell
     familiar:   Java, C, C++
 
 applications:
     platforms:  .NET, Node.js, ASP.NET, Azure
-    libraries:  EntityFramework, Dapper, SignalR, FParsec, Angular, Vue.js, Backbone
+    libraries:  EntityFramework, Dapper, SignalR, FParsec, Angular, Vue.js
