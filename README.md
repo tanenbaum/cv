@@ -6,4 +6,4 @@ I've used LaTeX plenty of times in the past, but it was always heavy going and a
 
 Common parts of the CV body are described in `static/cv.yaml`. This was a JSON document previously, but it's not quite as friendly with newlines. The markdown is preprocessed with handlebars.
 
-`Grunt` tasks will generate html and pdf outputs in `build`.
+`npm start` will run the CV conversion process and generate necessary outputs.
