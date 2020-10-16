@@ -1,1 +1,3 @@
-console.log("Main")
+#!/usr/bin/env node
+
+console.log('Main')
