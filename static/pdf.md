@@ -57,7 +57,7 @@ A proficient developer in a variety of programming languages.
 
 ### {{where}}, {{when}}
 #### {{title}}
-{{list _meta}}
+{{list detail}}
 
 {{/each}}
 
@@ -68,7 +68,7 @@ A proficient developer in a variety of programming languages.
 
 ### {{where}}, {{when}}
 #### {{type}}: {{grade}}
-{{list _meta}}
+{{list detail}}
 
 {{/each}}
 
@@ -79,7 +79,7 @@ A proficient developer in a variety of programming languages.
 
 ### {{what}}
 #### {{where}}, {{when}}
-{{_meta}}
+{{detail}}
 
 {{/each}}
 
