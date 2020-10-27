@@ -20,7 +20,7 @@ employment:
   detail:    
   - Working autonomously to deliver software testing platforms, typically as a lead engineer on client site.
   - "Developed creative testing solutions, such as verification of large scale DNS migrations 
-  and exploration of single page applications."
+    and exploration of single page applications."
   - Involved in performance engineering, planning, execution and data analysis.
 
 - where: X-Lab Ltd, Leeds
@@ -29,15 +29,15 @@ employment:
   detail:
   - Responsible for the delivery and support of scalable, distributed healthcare systems.
   - "Led development of multiple projects, including a complex questionnaire management solution, 
-  with an embedded domain specific language for dynamic scoring/calculations."
+    with an embedded domain specific language for dynamic scoring/calculations."
   - Integrated an open source federated identity solution into a regional patient management system.
   - "Leading, mentoring and supporting development team members. Proactive in encouraging collaboration, 
-  providing feedback and raising standards in development."
+    providing feedback and raising standards in development."
   - "Worked closely with numerous clients, from project inception through to sign-off. 
-  Used agile methods to deliver systems that meet expectations; justifying technical decisions where necessary."
+    Used agile methods to deliver systems that meet expectations; justifying technical decisions where necessary."
   - "Steered company-wide technology and software development strategies. 
-  Supported the introduction of end-to-end UI testing, 
-  continuous delivery of all projects and peer code review."
+    Supported the introduction of end-to-end UI testing, 
+    continuous delivery of all projects and peer code review."
 
 - where: University of Leeds
   when: 2009 - 2010
@@ -67,8 +67,8 @@ education:
   detail: 
   - Specialised in the study of artificial intelligence and operations research.
   - "Finalist project on swarm intelligence, particularly of ant colonies, 
-  with respect to sorting and clustering. 
-  Using bio-inspired algorithms, e.g. neural networks and genetic algorithms."
+    with respect to sorting and clustering. 
+    Using bio-inspired algorithms, e.g. neural networks and genetic algorithms."
 
 - type: A-Levels
   grade: Computing, Physics, Use of Mathematics, Music Technology
