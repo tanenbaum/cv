@@ -21,7 +21,7 @@ yargs(hideBin(process.argv))
         normalize: true
       })
     }, (argv) => {
-      processMarkdown(argv.markdown, argv.yaml)
+      console.log(processMarkdown(argv.markdown, argv.yaml, argv.html))
     })
   .command('pdf <html>', 'convert a html file to a pdf document',
     (yargs) => {

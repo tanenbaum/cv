@@ -10,3 +10,6 @@ Handlebars.registerHelper('list', function (list) {
 
   return out
 })
+
+// partial to allow injecting of html content, use via {{> Content}}
+Handlebars.registerPartial('Content', '{{_content}}')
