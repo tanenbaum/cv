@@ -2,13 +2,10 @@ const Handlebars = require('handlebars')
 
 // list items using Markdown syntax
 Handlebars.registerHelper('list', function (list) {
-  var out = ''
-
-  for (var i in list) {
-    out = out + '\n  - ' + list[i]
+  if (list === undefined) {
+    return null
   }
-
-  return out
+  return list.reduce((acc, v) => acc + '\n - ' + v, '')
 })
 
 // partial to allow injecting of html content, use via {{> Content}}
