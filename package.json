@@ -17,18 +17,17 @@
   "homepage": "https://github.com/tanenbaum/cv",
   "dependencies": {
     "deepmerge": "^4.2.2",
-    "handlebars": "^4.0.5",
+    "handlebars": "^4.7.7",
     "loglevel": "^1.7.1",
-    "marked": "^1.2.9",
-    "yaml": "^1.10.0",
+    "marked": "^2.0.1",
+    "yaml": "^1.10.2",
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "eslint": "^7.19.0",
+    "eslint": "^7.22.0",
     "eslint-config-standard": "^16.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint-plugin-promise": "^4.3.1"
   }
 }
