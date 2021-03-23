@@ -13,8 +13,12 @@ $(OUTDIR)/%.css: $(STATIC)/%.css
 $(OUTDIR)/%.html: $(STATIC)/%.md $(OUTDIR)/%.css
 	node ./src/app.js template $< $(YAML) --html $(STATIC)/$*.html > $@
 
+# create pdf by first creating static html/css files from templates
+$(OUTDIR)/%.pdf: $(OUTDIR)/%.html
+	node ./src/app.js pdf $< -p $@
+
 .PHONY: pdf
-pdf: $(OUTDIR)/pdf.html
+pdf: $(OUTDIR)/pdf.pdf
 
 .PHONY: lint
 lint:

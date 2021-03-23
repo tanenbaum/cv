@@ -3,6 +3,7 @@
 const yargs = require('yargs/yargs')
 const { hideBin } = require('yargs/helpers')
 const { processMarkdown } = require('./markdown.js')
+const { htmlToPdf } = require('./pdf.js')
 
 yargs(hideBin(process.argv))
   .command('template <markdown> [yaml..]', 'template with markdown contents and yaml data inputs and produce html file',
@@ -28,9 +29,18 @@ yargs(hideBin(process.argv))
       yargs.positional('html', {
         describe: 'html file to convert',
         string: true
+      }).option('pdf', {
+        alias: 'p',
+        describe: 'path to pdf output file',
+        demandOption: true,
+        string: true,
+        normalize: true
+      }).option('margins', {
+        describe: 'margin size',
+        string: true
       })
-    }, (argv) => {
-      console.log(argv)
+    }, async (argv) => {
+      await htmlToPdf(argv.html, argv.pdf, argv.margins)
     })
   .demandCommand()
   .help()
