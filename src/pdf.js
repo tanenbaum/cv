@@ -18,7 +18,8 @@ exports.htmlToPdf = async function (htmlPath, pdfPath, margins = '1cm') {
       right: margins,
       bottom: margins,
       left: margins
-    }
+    },
+    format: 'A4'
   })
   await browser.close()
 }
