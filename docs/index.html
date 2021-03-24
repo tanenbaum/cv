@@ -1,126 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="YAML CV for Joseph R. Shaw">
+    <meta name="author" context="Joseph R. Shaw">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>CV: Joseph R. Shaw</title>
+</head>
 
-        <!-- css used for html build, pdf css specified in grunt file -->
-        <link rel="stylesheet" type="text/css" href="./cv.css">
-        <title>CV: Joseph R. Shaw</title>
-    </head>
-
-    <body>
-        <pre><code class="lang-json">{
-    "<span class="hljs-attribute">personal</span>" : <span class="hljs-value">{
-        "<span class="hljs-attribute">name</span>"    : <span class="hljs-value"><span class="hljs-string">"Joseph R. Shaw"</span></span>,
-        "<span class="hljs-attribute">github</span>"  : <span class="hljs-value"><span class="hljs-string">"https://github.com/tanenbaum"</span></span>,
-        "<span class="hljs-attribute">address</span>" : <span class="hljs-value"><span class="hljs-string">"--"</span></span>,
-        "<span class="hljs-attribute">phone</span>"   : <span class="hljs-value"><span class="hljs-string">"--"</span></span>,
-        "<span class="hljs-attribute">email</span>"   : <span class="hljs-value"><span class="hljs-string">"--"</span>
-    </span>}</span>,
-    "<span class="hljs-attribute">employment</span>" : <span class="hljs-value">[
-        {
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"cap hpi, Leeds"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2016 - 2017"</span></span>,
-            "<span class="hljs-attribute">title</span>" : <span class="hljs-value"><span class="hljs-string">"Senior Software Developer"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value">[
-                <span class="hljs-string">"Using Scrum to create, manage and support internal line of business applications."</span>,
-                <span class="hljs-string">"Replacement of vital legacy data processing and forecasting systems with contemporary solutions."</span>
-            ]
-        </span>},
-        {
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"The Test People, Leeds"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2015 - 2016"</span></span>,
-            "<span class="hljs-attribute">title</span>" : <span class="hljs-value"><span class="hljs-string">"Senior Technical Consultant"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value">[
-                <span class="hljs-string">"Working autonomously to deliver software testing platforms, typically as a lead engineer on client site."</span>,
-                <span class="hljs-string">"Developed creative testing solutions, such as verification of large scale DNS migrations  and exploration of single page applications."</span>,
-                <span class="hljs-string">"Involved in performance engineering, planning, execution and data analysis."</span>
-            ]
-        </span>},
-        {
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"X-Lab Ltd, Leeds"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2010 - 2015"</span></span>,
-            "<span class="hljs-attribute">title</span>" : <span class="hljs-value"><span class="hljs-string">"Lead Developer"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value">[
-                <span class="hljs-string">"Responsible for the delivery and support of scalable, distributed healthcare systems."</span>,
-                <span class="hljs-string">"Led development of multiple projects, including a complex questionnaire management solution,  with an embedded domain specific language for dynamic scoring/calculations."</span>,
-                <span class="hljs-string">"Integrated an open source federated identity solution into a regional patient management system."</span>,
-                <span class="hljs-string">"Leading, mentoring and supporting development team members. Proactive in encouraging collaboration,  providing feedback and raising standards in development."</span>,
-                <span class="hljs-string">"Worked closely with numerous clients, from project inception through to sign-off.  Used agile methods to deliver systems that meet expectations; justifying technical decisions where necessary."</span>,
-                <span class="hljs-string">"Steered company-wide technology and software development strategies.  Supported the introduction of end-to-end UI testing,  continuous delivery of all projects and peer code review."</span>
-            ]
-        </span>},
-        {
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"University of Leeds"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2009 - 2010"</span></span>,
-            "<span class="hljs-attribute">title</span>" : <span class="hljs-value"><span class="hljs-string">"Postgraduate Research"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value">[
-                <span class="hljs-string">"Use of functional languages and applications in GPGPU parallel programming."</span>,
-                <span class="hljs-string">"Creating a domain-specific embedded language, targeting graphics pipelines and hardware design."</span>
-            ]
-        </span>},
-        {
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"SourceIT"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2008 - 2010"</span></span>,
-            "<span class="hljs-attribute">title</span>" : <span class="hljs-value"><span class="hljs-string">"Software Consultant"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value">[
-                <span class="hljs-string">"Windows/Symbian phone implementations of a nutritional management application."</span>,
-                <span class="hljs-string">"Various web development projects, including a bespoke social networking community for fertility planning."</span>
-            ]
-        </span>},
-        {
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"Biosystems Group, University of Leeds"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-number">2009</span></span>,
-            "<span class="hljs-attribute">title</span>" : <span class="hljs-value"><span class="hljs-string">"Internship Student"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value">[
-                <span class="hljs-string">"Real-time rendering of an AI nematode worm simulation within a simple desktop application."</span>
-            ]
-        </span>}
-    ]</span>,
-    "<span class="hljs-attribute">education</span>" : <span class="hljs-value">[
-        {
-            "<span class="hljs-attribute">type</span>"  : <span class="hljs-value"><span class="hljs-string">"B.Sc. Computing"</span></span>,
-            "<span class="hljs-attribute">grade</span>" : <span class="hljs-value"><span class="hljs-string">"First-class honours"</span></span>,
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"University of Leeds"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2006 - 2009"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value">[
-                <span class="hljs-string">"Specialised in the study of artificial intelligence and operations research."</span>,
-                <span class="hljs-string">"Finalist project concentrated on swarm intelligence, particularly of ant colonies,  with respect to sorting and clustering.  Using BEAST (Bio-inspired Evolutionary Agent Simulation Toolkit) to apply neural networks  and genetic algorithms."</span>
-            ]
-        </span>},
-        {
-            "<span class="hljs-attribute">type</span>"  : <span class="hljs-value"><span class="hljs-string">"A-Levels"</span></span>,
-            "<span class="hljs-attribute">grade</span>" : <span class="hljs-value"><span class="hljs-string">"Computing, Physics, Use of Mathematics, Music Technology"</span></span>,
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"Barnsley College"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2004 - 2006"</span>
-        </span>}
-    ]</span>,
-    "<span class="hljs-attribute">achievements</span>" : <span class="hljs-value">[
-        {
-            "<span class="hljs-attribute">what</span>"  : <span class="hljs-value"><span class="hljs-string">"Dean's List"</span></span>,
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"University of Leeds"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-string">"2007 and 2008"</span></span>,
-            "<span class="hljs-attribute">_meta</span>" : <span class="hljs-value"><span class="hljs-string">"Awarded to students with a top 5% grade in the Faculty of Engineering."</span>
-        </span>},
-        {
-            "<span class="hljs-attribute">what</span>"  : <span class="hljs-value"><span class="hljs-string">"Outstanding Achievement in A-Level Computing"</span></span>,
-            "<span class="hljs-attribute">where</span>" : <span class="hljs-value"><span class="hljs-string">"Barnsley College"</span></span>,
-            "<span class="hljs-attribute">when</span>"  : <span class="hljs-value"><span class="hljs-number">2006</span>
-        </span>}
-    ]</span>,
-    "<span class="hljs-attribute">languages</span>" : <span class="hljs-value">{
-        "<span class="hljs-attribute">primary</span>"   : <span class="hljs-value"><span class="hljs-string">"C#, F#, JavaScript"</span></span>,
-        "<span class="hljs-attribute">secondary</span>" : <span class="hljs-value"><span class="hljs-string">"Ruby, Python, Haskell"</span></span>,
-        "<span class="hljs-attribute">familiar</span>"  : <span class="hljs-value"><span class="hljs-string">"Java, C, C++"</span>
-    </span>}</span>,
-    "<span class="hljs-attribute">applications</span>" : <span class="hljs-value">{
-        "<span class="hljs-attribute">platforms</span>" : <span class="hljs-value"><span class="hljs-string">".NET, Node.js, ASP.NET, Azure"</span></span>,
-        "<span class="hljs-attribute">libraries</span>" : <span class="hljs-value"><span class="hljs-string">"EntityFramework, Dapper, SignalR, FParsec, Angular, Vue.js"</span>
-    </span>}
-</span>}
+<body>
+<div class="tab">cv.yaml</div>
+<article>
+<pre><code class="language-yaml"><span class="indent-0"><span class="hljs-attr">personal:</span></span>
+<span class="indent-2">  <span class="hljs-attr">name:</span> <span class="hljs-string">Joseph</span> <span class="hljs-string">R.</span> <span class="hljs-string">Shaw</span></span>
+<span class="indent-2">  <span class="hljs-attr">url:</span> <span class="hljs-string">https://github.com/tanenbaum</span></span>
+<span class="indent-2">  <span class="hljs-attr">address:</span> <span class="hljs-string">--</span></span>
+<span class="indent-2">  <span class="hljs-attr">phone:</span> <span class="hljs-string">--</span></span>
+<span class="indent-2">  <span class="hljs-attr">email:</span> <span class="hljs-string">--</span></span>
+<span class="indent-0"><span class="hljs-attr">employment:</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">where:</span> <span class="hljs-string">cap</span> <span class="hljs-string">hpi,</span> <span class="hljs-string">Leeds</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2016</span> <span class="hljs-bullet">-</span> <span class="hljs-number">2017</span></span>
+<span class="indent-4">    <span class="hljs-attr">title:</span> <span class="hljs-string">Senior</span> <span class="hljs-string">Software</span> <span class="hljs-string">Developer</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Using</span> <span class="hljs-string">Scrum</span> <span class="hljs-string">to</span> <span class="hljs-string">create,</span> <span class="hljs-string">manage</span> <span class="hljs-string">and</span> <span class="hljs-string">support</span> <span class="hljs-string">internal</span> <span class="hljs-string">line</span> <span class="hljs-string">of</span> <span class="hljs-string">business</span> <span class="hljs-string">applications.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Replacement</span> <span class="hljs-string">of</span> <span class="hljs-string">vital</span> <span class="hljs-string">legacy</span> <span class="hljs-string">data</span> <span class="hljs-string">processing</span> <span class="hljs-string">and</span> <span class="hljs-string">forecasting</span> <span class="hljs-string">systems</span> <span class="hljs-string">with</span> <span class="hljs-string">contemporary</span> <span class="hljs-string">solutions.</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">where:</span> <span class="hljs-string">The</span> <span class="hljs-string">Test</span> <span class="hljs-string">People,</span> <span class="hljs-string">Leeds</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2015</span> <span class="hljs-bullet">-</span> <span class="hljs-number">2016</span></span>
+<span class="indent-4">    <span class="hljs-attr">title:</span> <span class="hljs-string">Senior</span> <span class="hljs-string">Technical</span> <span class="hljs-string">Consultant</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Working</span> <span class="hljs-string">autonomously</span> <span class="hljs-string">to</span> <span class="hljs-string">deliver</span> <span class="hljs-string">software</span> <span class="hljs-string">testing</span> <span class="hljs-string">platforms,</span> <span class="hljs-string">typically</span> <span class="hljs-string">as</span> <span class="hljs-string">a</span> <span class="hljs-string">lead</span> <span class="hljs-string">engineer</span> <span class="hljs-string">on</span> <span class="hljs-string">client</span> <span class="hljs-string">site.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Developed</span> <span class="hljs-string">creative</span> <span class="hljs-string">testing</span> <span class="hljs-string">solutions,</span> <span class="hljs-string">such</span> <span class="hljs-string">as</span> <span class="hljs-string">verification</span> <span class="hljs-string">of</span> <span class="hljs-string">large</span> <span class="hljs-string">scale</span> <span class="hljs-string">DNS</span> <span class="hljs-string">migrations</span> <span class="hljs-string">and</span> <span class="hljs-string">exploration</span> <span class="hljs-string">of</span></span>
+<span class="indent-8">        <span class="hljs-string">single</span> <span class="hljs-string">page</span> <span class="hljs-string">applications.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Involved</span> <span class="hljs-string">in</span> <span class="hljs-string">performance</span> <span class="hljs-string">engineering,</span> <span class="hljs-string">planning,</span> <span class="hljs-string">execution</span> <span class="hljs-string">and</span> <span class="hljs-string">data</span> <span class="hljs-string">analysis.</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">where:</span> <span class="hljs-string">X-Lab</span> <span class="hljs-string">Ltd,</span> <span class="hljs-string">Leeds</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2010</span> <span class="hljs-bullet">-</span> <span class="hljs-number">2015</span></span>
+<span class="indent-4">    <span class="hljs-attr">title:</span> <span class="hljs-string">Lead</span> <span class="hljs-string">Developer</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Responsible</span> <span class="hljs-string">for</span> <span class="hljs-string">the</span> <span class="hljs-string">delivery</span> <span class="hljs-string">and</span> <span class="hljs-string">support</span> <span class="hljs-string">of</span> <span class="hljs-string">scalable,</span> <span class="hljs-string">distributed</span> <span class="hljs-string">healthcare</span> <span class="hljs-string">systems.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Led</span> <span class="hljs-string">development</span> <span class="hljs-string">of</span> <span class="hljs-string">multiple</span> <span class="hljs-string">projects,</span> <span class="hljs-string">including</span> <span class="hljs-string">a</span> <span class="hljs-string">complex</span> <span class="hljs-string">questionnaire</span> <span class="hljs-string">management</span> <span class="hljs-string">solution,</span> <span class="hljs-string">with</span> <span class="hljs-string">an</span> <span class="hljs-string">embedded</span></span>
+<span class="indent-8">        <span class="hljs-string">domain</span> <span class="hljs-string">specific</span> <span class="hljs-string">language</span> <span class="hljs-string">for</span> <span class="hljs-string">dynamic</span> <span class="hljs-string">scoring/calculations.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Integrated</span> <span class="hljs-string">an</span> <span class="hljs-string">open</span> <span class="hljs-string">source</span> <span class="hljs-string">federated</span> <span class="hljs-string">identity</span> <span class="hljs-string">solution</span> <span class="hljs-string">into</span> <span class="hljs-string">a</span> <span class="hljs-string">regional</span> <span class="hljs-string">patient</span> <span class="hljs-string">management</span> <span class="hljs-string">system.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Leading,</span> <span class="hljs-string">mentoring</span> <span class="hljs-string">and</span> <span class="hljs-string">supporting</span> <span class="hljs-string">development</span> <span class="hljs-string">team</span> <span class="hljs-string">members.</span> <span class="hljs-string">Proactive</span> <span class="hljs-string">in</span> <span class="hljs-string">encouraging</span> <span class="hljs-string">collaboration,</span> <span class="hljs-string">providing</span></span>
+<span class="indent-8">        <span class="hljs-string">feedback</span> <span class="hljs-string">and</span> <span class="hljs-string">raising</span> <span class="hljs-string">standards</span> <span class="hljs-string">in</span> <span class="hljs-string">development.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Worked</span> <span class="hljs-string">closely</span> <span class="hljs-string">with</span> <span class="hljs-string">numerous</span> <span class="hljs-string">clients,</span> <span class="hljs-string">from</span> <span class="hljs-string">project</span> <span class="hljs-string">inception</span> <span class="hljs-string">through</span> <span class="hljs-string">to</span> <span class="hljs-string">sign-off.</span> <span class="hljs-string">Used</span> <span class="hljs-string">agile</span> <span class="hljs-string">methods</span> <span class="hljs-string">to</span> <span class="hljs-string">deliver</span></span>
+<span class="indent-8">        <span class="hljs-string">systems</span> <span class="hljs-string">that</span> <span class="hljs-string">meet</span> <span class="hljs-string">expectations;</span> <span class="hljs-string">justifying</span> <span class="hljs-string">technical</span> <span class="hljs-string">decisions</span> <span class="hljs-string">where</span> <span class="hljs-string">necessary.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Steered</span> <span class="hljs-string">company-wide</span> <span class="hljs-string">technology</span> <span class="hljs-string">and</span> <span class="hljs-string">software</span> <span class="hljs-string">development</span> <span class="hljs-string">strategies.</span> <span class="hljs-string">Supported</span> <span class="hljs-string">the</span> <span class="hljs-string">introduction</span> <span class="hljs-string">of</span> <span class="hljs-string">end-to-end</span> <span class="hljs-string">UI</span></span>
+<span class="indent-8">        <span class="hljs-string">testing,</span> <span class="hljs-string">continuous</span> <span class="hljs-string">delivery</span> <span class="hljs-string">of</span> <span class="hljs-string">all</span> <span class="hljs-string">projects</span> <span class="hljs-string">and</span> <span class="hljs-string">peer</span> <span class="hljs-string">code</span> <span class="hljs-string">review.</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">where:</span> <span class="hljs-string">University</span> <span class="hljs-string">of</span> <span class="hljs-string">Leeds</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2009</span> <span class="hljs-bullet">-</span> <span class="hljs-number">2010</span></span>
+<span class="indent-4">    <span class="hljs-attr">title:</span> <span class="hljs-string">Postgraduate</span> <span class="hljs-string">Research</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Use</span> <span class="hljs-string">of</span> <span class="hljs-string">functional</span> <span class="hljs-string">languages</span> <span class="hljs-string">and</span> <span class="hljs-string">applications</span> <span class="hljs-string">in</span> <span class="hljs-string">GPGPU</span> <span class="hljs-string">parallel</span> <span class="hljs-string">programming.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Creating</span> <span class="hljs-string">a</span> <span class="hljs-string">domain-specific</span> <span class="hljs-string">embedded</span> <span class="hljs-string">language,</span> <span class="hljs-string">targeting</span> <span class="hljs-string">graphics</span> <span class="hljs-string">pipelines</span> <span class="hljs-string">and</span> <span class="hljs-string">hardware</span> <span class="hljs-string">design.</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">where:</span> <span class="hljs-string">SourceIT</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2008</span> <span class="hljs-bullet">-</span> <span class="hljs-number">2010</span></span>
+<span class="indent-4">    <span class="hljs-attr">title:</span> <span class="hljs-string">Software</span> <span class="hljs-string">Consultant</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Windows/Symbian</span> <span class="hljs-string">phone</span> <span class="hljs-string">implementations</span> <span class="hljs-string">of</span> <span class="hljs-string">a</span> <span class="hljs-string">nutritional</span> <span class="hljs-string">management</span> <span class="hljs-string">application.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Various</span> <span class="hljs-string">web</span> <span class="hljs-string">development</span> <span class="hljs-string">projects,</span> <span class="hljs-string">including</span> <span class="hljs-string">a</span> <span class="hljs-string">bespoke</span> <span class="hljs-string">social</span> <span class="hljs-string">networking</span> <span class="hljs-string">community</span> <span class="hljs-string">for</span> <span class="hljs-string">fertility</span> <span class="hljs-string">planning.</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">where:</span> <span class="hljs-string">Biosystems</span> <span class="hljs-string">Group,</span> <span class="hljs-string">University</span> <span class="hljs-string">of</span> <span class="hljs-string">Leeds</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2009</span></span>
+<span class="indent-4">    <span class="hljs-attr">title:</span> <span class="hljs-string">Internship</span> <span class="hljs-string">Student</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Real-time</span> <span class="hljs-string">rendering</span> <span class="hljs-string">of</span> <span class="hljs-string">an</span> <span class="hljs-string">AI</span> <span class="hljs-string">nematode</span> <span class="hljs-string">worm</span> <span class="hljs-string">simulation</span> <span class="hljs-string">within</span> <span class="hljs-string">a</span> <span class="hljs-string">simple</span> <span class="hljs-string">desktop</span> <span class="hljs-string">application.</span></span>
+<span class="indent-0"><span class="hljs-attr">education:</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">B.Sc.</span> <span class="hljs-string">Computing</span></span>
+<span class="indent-4">    <span class="hljs-attr">grade:</span> <span class="hljs-string">First-class</span> <span class="hljs-string">honours</span></span>
+<span class="indent-4">    <span class="hljs-attr">where:</span> <span class="hljs-string">University</span> <span class="hljs-string">of</span> <span class="hljs-string">Leeds</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2006</span> <span class="hljs-bullet">-</span> <span class="hljs-number">2009</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Specialised</span> <span class="hljs-string">in</span> <span class="hljs-string">the</span> <span class="hljs-string">study</span> <span class="hljs-string">of</span> <span class="hljs-string">artificial</span> <span class="hljs-string">intelligence</span> <span class="hljs-string">and</span> <span class="hljs-string">operations</span> <span class="hljs-string">research.</span></span>
+<span class="indent-6">      <span class="hljs-bullet">-</span> <span class="hljs-string">Finalist</span> <span class="hljs-string">project</span> <span class="hljs-string">on</span> <span class="hljs-string">swarm</span> <span class="hljs-string">intelligence,</span> <span class="hljs-string">particularly</span> <span class="hljs-string">of</span> <span class="hljs-string">ant</span> <span class="hljs-string">colonies,</span> <span class="hljs-string">with</span> <span class="hljs-string">respect</span> <span class="hljs-string">to</span> <span class="hljs-string">sorting</span> <span class="hljs-string">and</span> <span class="hljs-string">clustering.</span></span>
+<span class="indent-8">        <span class="hljs-string">Using</span> <span class="hljs-string">bio-inspired</span> <span class="hljs-string">algorithms,</span> <span class="hljs-string">e.g.</span> <span class="hljs-string">neural</span> <span class="hljs-string">networks</span> <span class="hljs-string">and</span> <span class="hljs-string">genetic</span> <span class="hljs-string">algorithms.</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">A-Levels</span></span>
+<span class="indent-4">    <span class="hljs-attr">grade:</span> <span class="hljs-string">Computing,</span> <span class="hljs-string">Physics,</span> <span class="hljs-string">Use</span> <span class="hljs-string">of</span> <span class="hljs-string">Mathematics,</span> <span class="hljs-string">Music</span> <span class="hljs-string">Technology</span></span>
+<span class="indent-4">    <span class="hljs-attr">where:</span> <span class="hljs-string">Barnsley</span> <span class="hljs-string">College</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2004</span> <span class="hljs-bullet">-</span> <span class="hljs-number">2006</span></span>
+<span class="indent-0"><span class="hljs-attr">achievements:</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">what:</span> <span class="hljs-string">Dean&#x27;s</span> <span class="hljs-string">List</span></span>
+<span class="indent-4">    <span class="hljs-attr">where:</span> <span class="hljs-string">University</span> <span class="hljs-string">of</span> <span class="hljs-string">Leeds</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2007 </span><span class="hljs-string">and</span> <span class="hljs-number">2008</span></span>
+<span class="indent-4">    <span class="hljs-attr">detail:</span> <span class="hljs-string">Awarded</span> <span class="hljs-string">to</span> <span class="hljs-string">students</span> <span class="hljs-string">with</span> <span class="hljs-string">a</span> <span class="hljs-string">top</span> <span class="hljs-number">5</span><span class="hljs-string">%</span> <span class="hljs-string">grade</span> <span class="hljs-string">in</span> <span class="hljs-string">the</span> <span class="hljs-string">Faculty</span> <span class="hljs-string">of</span> <span class="hljs-string">Engineering.</span></span>
+<span class="indent-2">  <span class="hljs-bullet">-</span> <span class="hljs-attr">what:</span> <span class="hljs-string">Outstanding</span> <span class="hljs-string">Achievement</span> <span class="hljs-string">in</span> <span class="hljs-string">A-Level</span> <span class="hljs-string">Computing</span></span>
+<span class="indent-4">    <span class="hljs-attr">where:</span> <span class="hljs-string">Barnsley</span> <span class="hljs-string">College</span></span>
+<span class="indent-4">    <span class="hljs-attr">when:</span> <span class="hljs-number">2006</span></span>
+<span class="indent-0"><span class="hljs-attr">languages:</span></span>
+<span class="indent-2">  <span class="hljs-attr">primary:</span> <span class="hljs-string">Go,</span> <span class="hljs-string">C#,</span> <span class="hljs-string">F#,</span> <span class="hljs-string">JavaScript</span></span>
+<span class="indent-2">  <span class="hljs-attr">secondary:</span> <span class="hljs-string">Ruby,</span> <span class="hljs-string">Python,</span> <span class="hljs-string">Haskell</span></span>
+<span class="indent-2">  <span class="hljs-attr">familiar:</span> <span class="hljs-string">Java,</span> <span class="hljs-string">C,</span> <span class="hljs-string">C++</span></span>
+<span class="indent-0"></span>
 </code></pre>
-
-    </body>
+</article>
+</body>
 </html>
+

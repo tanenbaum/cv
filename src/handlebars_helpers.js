@@ -1,4 +1,5 @@
 const Handlebars = require('handlebars')
+const yaml = require('yaml')
 
 // list items using Markdown syntax
 Handlebars.registerHelper('list', function (list) {
@@ -6,6 +7,17 @@ Handlebars.registerHelper('list', function (list) {
     return null
   }
   return list.reduce((acc, v) => acc + '\n - ' + v, '')
+})
+
+yaml.scalarOptions.str.fold = {
+  // nice defaults
+  lineWidth: 120,
+  minContentWidth: 20
+}
+
+// pretty print a YAML document
+Handlebars.registerHelper('yaml', function (obj) {
+  return yaml.stringify(obj)
 })
 
 // partial to allow injecting of html content, use via {{> Content}}

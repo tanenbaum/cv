@@ -1,0 +1,47 @@
+body {
+  padding: 0 4em;
+  font-family: monospace;
+  background: #353535;
+}
+
+div.tab {
+  color: white;
+  background: #23241f;
+  display: inline-block;
+  padding: 1em;
+  min-width: 10em;
+}
+
+article {
+  background: #23241f;
+  padding: 1em;
+}
+
+pre {
+  margin: 0;
+}
+
+.hljs-bullet,
+.hljs-attr {
+  color: #ae81ff;
+}
+
+.hljs-string,
+.hljs-number {
+  color: #e6db74;
+}
+
+.indent-0 .hljs-attr {
+  font-size: larger;
+  line-height: 200%;
+  color: #f92672;
+}
+
+.hljs-attr:not(.indent-0 .hljs-attr) {
+  width: 10em;
+  display: inline-block;
+}
+
+.indent-2 > .hljs-bullet + .hljs-attr {
+  margin-top: 0.5em;
+}

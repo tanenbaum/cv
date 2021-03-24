@@ -20,6 +20,10 @@ $(OUTDIR)/%.pdf: $(OUTDIR)/%.html
 .PHONY: pdf
 pdf: $(OUTDIR)/pdf.pdf
 
+.PHONY: github-docs
+github-docs: OUTDIR = docs
+github-docs: $(OUTDIR)/index.html
+
 .PHONY: lint
 lint:
 	npm run-script lint
