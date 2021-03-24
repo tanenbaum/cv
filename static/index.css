@@ -15,6 +15,7 @@ div.tab {
 article {
   background: #23241f;
   padding: 1em;
+  overflow-x: auto;
 }
 
 pre {
@@ -44,4 +45,11 @@ pre {
 
 .indent-2 > .hljs-bullet + .hljs-attr {
   margin-top: 0.5em;
+}
+
+@media only screen and (max-width : 480px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
 }
