@@ -1,3 +1,4 @@
-```json
-{{{json @root}}}
+
+```yaml
+{{{yaml @root}}}
 ```
