@@ -11,7 +11,7 @@ $(OUTDIR)/%.css: $(STATIC)/%.css
 # build html assuming static files %.md %.css and %.html where % is file name
 # assumes %.html references ./%.css with relative path
 $(OUTDIR)/%.html: $(STATIC)/%.md $(OUTDIR)/%.css
-	node ./src/app.js template $< $(YAML) --html $(STATIC)/$*.html > $@
+	node ./src/app.js template $< $(YAML) $(PRIVATE) --html $(STATIC)/$*.html > $@
 
 # create pdf by first creating static html/css files from templates
 $(OUTDIR)/%.pdf: $(OUTDIR)/%.html
