@@ -35,7 +35,7 @@ employment:
   when: 2010 - 2015
   title: Lead Developer
   detail:
-  - Responsible for the delivery and support of scalable, distributed healthcare systems.
+  - Responsible for the delivery and support of scalable, distributed healthcare applications.
   - Worked closely with clients, from project inception through to sign-off and maintenance.
   - "Leading, mentoring and supporting development team members. Proactive in encouraging collaboration, 
     providing feedback and raising standards in development."

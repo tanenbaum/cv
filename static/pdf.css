@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 13px;
   line-height: 140%;
 }
 
@@ -11,8 +11,13 @@ p {
   font-size: 1em;
 }
 
+h2 {
+    border-bottom: 1px solid #5f6368;
+    padding-bottom: 0.5em;
+}
+
 h3 {
-  margin: 1em 0 0.5em 0;
+  margin: 0.75em 0 0.5em 0;
 }
 
 h4 {
@@ -21,9 +26,28 @@ h4 {
 
 ul {
   margin: 0;
+  padding-left: 1.5em;
 }
 
 table {
   width: 100%;
   font-weight: bold;
+}
+
+span.when {
+  float: right;
+  color: #5f6368;
+}
+
+span.keys {
+  color: #81a5de;
+  font-weight: bolder;
+}
+
+table.personal {
+  width: 100%
+}
+
+a:link {
+  color: black;
 }

@@ -2,90 +2,87 @@
 
 # CV: {{name}}
 
-Joe is a full-stack software engineer with a passion for elegant code and software design. He is proactive in identifying new trends and strategies to inform implementation, continuous integration and delivery.
+Joe is a professional full-stack software engineer and DevOps enthusiast with a passion for clean code and software design. He is proactive in identifying new trends and strategies to inform implementation, integration and delivery.
 
-<table>
-<tr><td width="33%">email - {{email}}</td><td width="33%">phone - {{phone}}</td><td width="33%">GitHub - {{github}}</td></tr>
+<table id="personal">
+<tr><td>email - <a href="mailto:{{email}}">{{email}}</a></td><td>location - <a href="https://maps.google.co.uk/?q={{encode location}}">{{location}}</a></td></tr>
+<tr><td>phone - <a href="tel:{{phone}}">{{phone}}</a></td><td>url - <a href="{{url}}">{{url}}</a></td></tr>
 </table>
 
 {{/with}}
 
 ## Technical Skills
----
 
 ### Software Design
 
-Routine involvement in the planning and design of a diverse range of systems, including multi-tenant eHealth products.
+Planning and design of a range of systems, from DevOps tools to multi-tenant eHealth products.
 
-  - Using well-established patterns for code modularity and reuse, following DRY/SOLID principles, ensuring testability through abstraction.
-  - Architect of many robust web APIs to facilitate simple system integration, providing client SDKs through Swagger.io.
-  - Designed polyglot persistence and caching strategies for large and complex data sets.
-  - Leveraged Microsoft Azure as a hybrid cloud solution for hosting application components, such as queues, workers, caching layers and web services.
+- Using agile methods to iterate requirements with continuous improvement: {{#keys}}Kanban, Scrum{{/keys}}.
+- Applying well-established patterns for scalable and resilient applications: {{#keys}}12-Factor, Cloud-Native{{/keys}}
+- Architect of various services including robust web APIs to facilitate simple third-party integration: {{#keys}}REST, RPC, OpenID, OpenAPI{{/keys}}.
+- Designing relational schemas and NoSQL models for large and complex data sets: {{#keys}}PostgreSQL, MariaDB, MongoDB, InfluxDB{{/keys}}.
+- Messaging and caching strategies for scalable loosely coupled services: {{#keys}}Kafka, ZeroMQ, Redis{{/keys}}.
 
-### Software Implementation
-
+### Development
 #### Languages
 
 A proficient developer in a variety of programming languages.
 
 {{#with languages}}
-  - Primary: {{primary}}
-  - Secondary: {{secondary}}
-  - Familiar: {{familiar}}
+  - Primary: {{#keys}}{{primary}}{{/keys}}
+  - Familiar: {{#keys}}{{familiar}}{{/keys}}
 {{/with}}
 
-#### Platforms and Libraries
+#### Platforms and Tooling
 
-  - Principal use of the .NET Framework and class libraries: LINQ, Entity Framework, Task Parallel, Task-Based Async Models.
-  - Implemented and administered web applications through IIS and Apache: ASP.NET MVC, Web API, SignalR, Node.js with Express, socket.io.
-  - Good working knowledge of web technologies: HTML4/5, CSS2/3, client-side JavaScript libraries such as Angular, Vue.js, lodash.
-  - Use of various persistence and messaging systems: SqlServer, MongoDB, Redis, RabbitMQ.
- 
-#### Tooling
+- Comfortable using a variety of operating systems and typical development environments: {{#keys}}Linux, Windows, macOS{{/keys}}.
+- Implementing cross-platform back-end services and workers: {{#keys}}Golang, Node.js, Express, ASP.NET Core, gRPC{{/keys}}.
+- Good working knowledge of web technologies, for both traditional sites and single page apps: {{#keys}}HTML5, CSS3, React, Vue.js{{/keys}}.
+- Published and maintained libraries via package management systems: {{#keys}}NuGet, npm{{/keys}}.
+- Automated testing of applications, from core unit tests, regression and end-to-end tests: {{#keys}}Selenium, WebdriverIO{{/keys}}.
+- Never without source control: {{#keys}}Git, Mercurial, SVN{{/keys}}.
 
-  - Comfortable using a variety of operating systems and typical development environments.
-  - Provisioning of virtual machines and containers: Vagrant, docker, lxc, Powershell DSC.
-  - Configured and maintained continuous integration tools to automate builds, perform static analysis and linting, automate testing and deployment: Team City, VSTS, Jenkins, Travis CI, Octopus Deploy.
-  - Created and maintained libraries through package management systems: NuGet, npm, bower.
-  - Automated testing of applications, from core unit tests and regression testing to full end-to-end integration tests: N/XUnit, Mocha, Chai, Selenium WebDriver, automatic/generative specification testing with FsCheck.
-  - Never without source control: Git, Mercurial, SVN, TFVC.
+### Delivery
+
+Actively engaged in delivery, maintenance and support, chiefly using the Kubernetes platform.
+
+- Leveraged cloud hosting for SaaS and hybrid cloud deployments: {{#keys}}Google Cloud, Microsoft Azure{{/keys}}.
+- Versioned release artifact creation to allow rapid deployment and feedback: {{#keys}}Container Images, Helm Packages{{/keys}}.
+- Instrumentation of apps and management of monitoring/logging infrastructure: {{#keys}}Prometheus, Grafana, Fluentd, Elastic Stack{{/keys}}.
+- Configured and maintained continuous integration tools to automate builds, static analysis, testing and releases: {{#keys}}GitLab CI, Jenkins, TeamCity{{/keys}}.
 
 ## Employment
----
 
 {{#each employment}}
 
-### {{where}}, {{when}}
-#### {{title}}
+### {{title}} | {{where}} <span class="when"> {{when}} </span>
+
 {{list detail}}
 
 {{/each}}
 
 ## Education
----
 
 {{#each education}}
 
-### {{where}}, {{when}}
+### {{where}} <span class="when"> {{when}} </span>
 #### {{type}}: {{grade}}
 {{list detail}}
 
 {{/each}}
 
 ## Achievements
----
 
 {{#each achievements}}
 
-### {{what}}
-#### {{where}}, {{when}}
+### {{what}} | {{where}} <span class="when"> {{when}} </span>
+
 {{detail}}
 
 {{/each}}
 
 ## Personal
----
 
-Born 17/08/1988. Married. Two cats.
+DoB: 17/08/1988. Married; one child; two cats.
 
-Interests include programming, game design, travel, film and reading science fiction.
+Interests include history, travel, game design, film and reading science fiction.
