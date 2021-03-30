@@ -1,63 +1,63 @@
 personal:
   name: Joseph R. Shaw
-  url: https://github.com/tanenbaum
+  url: http://tanenbaum.github.io/cv/
   # hide some fields from this repo - use private yaml on build
   address: --
   phone: --
   email: --
+  location: --
 
 employment:
+- where: Edgetic, Leeds
+  when: 2018 - 2021
+  title: Lead Developer
+  detail:
+  - Development of Kubernetes extensions, predictive schedulers and monitoring for data center management.
+  - Automating machine learning pipelines to simulate hardware power utilisation and workload characteristics.
+  - Using Kubernetes to manage bare-metal infrastructure, providing self-service hosting and data storage.
+  - Defining company-wide technology and software development strategies in order to take R&D concepts through to production.
+
 - where: cap hpi, Leeds
   when: 2016 - 2017
   title: Senior Software Developer
   detail:
-  - Using Scrum to create, manage and support internal line of business applications.
+  - Using Scrum to create, manage and support internal line of business applications for automotive finance.
   - Replacement of vital legacy data processing and forecasting systems with contemporary solutions.
 
 - where: The Test People, Leeds
   when: 2015 - 2016
   title: Senior Technical Consultant
   detail:
-  - Working autonomously to deliver software testing platforms, typically as a lead engineer on client site.
-  - "Developed creative testing solutions, such as verification of large scale DNS migrations 
-    and exploration of single page applications."
+  - Working autonomously to deliver automated testing solutions, typically as a lead engineer on client site.
   - Involved in performance engineering, planning, execution and data analysis.
 
-- where: X-Lab Ltd, Leeds
+- where: X-Lab, Leeds
   when: 2010 - 2015
   title: Lead Developer
   detail:
-  - Responsible for the delivery and support of scalable, distributed healthcare systems.
-  - "Led development of multiple projects, including a complex questionnaire management solution, 
-    with an embedded domain specific language for dynamic scoring/calculations."
-  - Integrated an open source federated identity solution into a regional patient management system.
+  - Responsible for the delivery and support of scalable, distributed healthcare applications.
+  - Worked closely with clients, from project inception through to sign-off and maintenance.
   - "Leading, mentoring and supporting development team members. Proactive in encouraging collaboration, 
     providing feedback and raising standards in development."
-  - "Worked closely with numerous clients, from project inception through to sign-off. 
-    Used agile methods to deliver systems that meet expectations; justifying technical decisions where necessary."
-  - "Steered company-wide technology and software development strategies. 
-    Supported the introduction of end-to-end UI testing, 
-    continuous delivery of all projects and peer code review."
+  - Supported the introduction of end-to-end UI testing, continuous integration of all projects and peer code review.
 
 - where: University of Leeds
   when: 2009 - 2010
   title: Postgraduate Research
   detail:
-  - Use of functional languages and applications in GPGPU parallel programming.
-  - Creating a domain-specific embedded language, targeting graphics pipelines and hardware design.
+  - Domain-specific language design targetting ray tracing graphics hardware.
                   
 - where: SourceIT
   when: 2008 - 2010
   title: Software Consultant
-  detail:    
-  - Windows/Symbian phone implementations of a nutritional management application.
-  - Various web development projects, including a bespoke social networking community for fertility planning. 
+  detail:
+  - Various web/app development projects, including a bespoke social networking community for fertility planning. 
 
 - where: Biosystems Group, University of Leeds
   when: 2009
   title: Internship Student
   detail: 
-  - Real-time rendering of an AI nematode worm simulation within a simple desktop application.
+  - Real-time interaction and rendering of artificial nematode worms within a simple desktop application.
 
 education:
 - type: B.Sc. Computing
@@ -66,9 +66,8 @@ education:
   when: 2006 - 2009
   detail: 
   - Specialised in the study of artificial intelligence and operations research.
-  - "Finalist project on swarm intelligence, particularly of ant colonies, 
-    with respect to sorting and clustering. 
-    Using bio-inspired algorithms, e.g. neural networks and genetic algorithms."
+  - "Finalist project on swarm intelligence, particularly of ant colonies,
+    using bio-inspired algorithms, e.g. neural networks and genetic algorithms."
 
 - type: A-Levels
   grade: Computing, Physics, Use of Mathematics, Music Technology
@@ -86,6 +85,5 @@ achievements:
   when: 2006
 
 languages:
-  primary: Go, C#, F#, JavaScript
-  secondary: Ruby, Python, Haskell
-  familiar: Java, C, C++
+  primary: Go, C#, JavaScript
+  familiar: Python, Java, C, C++, F#, Haskell

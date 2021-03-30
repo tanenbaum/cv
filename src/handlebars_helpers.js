@@ -20,5 +20,13 @@ Handlebars.registerHelper('yaml', function (obj) {
   return yaml.stringify(obj)
 })
 
+Handlebars.registerHelper('encode', function (text) {
+  return encodeURIComponent(text)
+})
+
+Handlebars.registerHelper('keys', function (options) {
+  return new Handlebars.SafeString(`<span class="keys">${options.fn(this)}</span>`)
+})
+
 // partial to allow injecting of html content, use via {{> Content}}
 Handlebars.registerPartial('Content', '{{_content}}')
