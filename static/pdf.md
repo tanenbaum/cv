@@ -18,7 +18,7 @@ Joe is a professional full-stack software engineer and DevOps enthusiast with a 
 Planning and design of a range of systems, from DevOps tools to multi-tenant eHealth products.
 
 - Using agile methods to iterate requirements with continuous improvement: {{#keys}}Kanban, Scrum{{/keys}}.
-- Applying well-established patterns for scalable and resilient applications: {{#keys}}12-Factor, Cloud-Native{{/keys}}
+- Applying well-established patterns for scalable and resilient applications: {{#keys}}12-Factor, Cloud-Native{{/keys}}.
 - Architect of various services including robust web APIs to facilitate simple third-party integration: {{#keys}}REST, RPC, OpenID, OpenAPI{{/keys}}.
 - Designing relational schemas and NoSQL models for large and complex data sets: {{#keys}}PostgreSQL, MariaDB, MongoDB, InfluxDB{{/keys}}.
 - Messaging and caching strategies for scalable loosely coupled services: {{#keys}}Kafka, ZeroMQ, Redis{{/keys}}.
@@ -29,8 +29,8 @@ Planning and design of a range of systems, from DevOps tools to multi-tenant eHe
 A proficient developer in a variety of programming languages.
 
 {{#with languages}}
-  - Primary: {{#keys}}{{primary}}{{/keys}}
-  - Familiar: {{#keys}}{{familiar}}{{/keys}}
+  - Primary: {{#keys}}{{primary}}{{/keys}}.
+  - Familiar: {{#keys}}{{familiar}}{{/keys}}.
 {{/with}}
 
 #### Platforms and Tooling
@@ -83,6 +83,11 @@ Actively engaged in delivery, maintenance and support, chiefly using the Kuberne
 
 ## Personal
 
-DoB: 17/08/1988. Married; one child; two cats.
+DoB: 17th August 1988.
 
-Interests include history, travel, game design, film and reading science fiction.
+Joe is married to his long term partner of 15+ years. They have a young daughter and two cats.
+
+His interests include history, particularly in podcast form; travel, to various locales but especially European cities (for the history and architecture); 
+bike rides and walks, around the countryside and coast; and reading science fiction, notably that of Iain M. Banks and Dan Simmons.
+
+Time permitting, he also enjoys video games (short ones, that can be finished) and watching films.

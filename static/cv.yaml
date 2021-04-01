@@ -78,12 +78,13 @@ achievements:
 - what: Dean's List
   where: University of Leeds
   when: 2007 and 2008
-  detail: Awarded to students with a top 5% grade in the Faculty of Engineering.
+  detail: Awarded to students with top 5% grades in the Faculty of Engineering.
 
 - what: Outstanding Achievement in A-Level Computing
   where: Barnsley College
   when: 2006
+  detail: Awarded to students with exceptionally high A-Level results in Computing.
 
 languages:
   primary: Go, C#, JavaScript
-  familiar: Python, Java, C, C++, F#, Haskell
+  familiar: Ruby, Python, Java, C, C++, F#
