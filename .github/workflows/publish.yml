@@ -12,6 +12,6 @@ jobs:
     - run: make lint
     - run: make OUTDIR=docs github-docs
     - uses: EndBug/add-and-commit@v7
-        with:
-          add: docs/*
-          message: Auto update pages from GitHub Actions
+      with:
+        add: docs/*
+        message: Auto update pages from GitHub Actions
