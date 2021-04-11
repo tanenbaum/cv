@@ -1,0 +1,11 @@
+name: Publish GitHub Pages
+on: [push]
+jobs:
+  Build-And-Publish:
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install
+    - run: make lint
