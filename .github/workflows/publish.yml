@@ -10,7 +10,7 @@ jobs:
         node-version: '14'
     - run: npm install
     - run: make lint
-    - run: make OUTDIR=docs github-docs
+    - run: make OUTDIR=docs -B github-docs
     - uses: EndBug/add-and-commit@v7
       with:
         add: docs/*
