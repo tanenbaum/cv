@@ -1,0 +1,17 @@
+name: Publish GitHub Pages
+on: [push]
+jobs:
+  Build-And-Publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install
+    - run: make lint
+    - run: make OUTDIR=docs -B github-docs
+    - uses: EndBug/add-and-commit@v7
+      with:
+        add: docs/*
+        message: Auto update pages from GitHub Actions

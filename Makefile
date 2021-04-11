@@ -1,4 +1,4 @@
-OUTDIR = build
+OUTDIR ?= build
 STATIC = static
 YAML = $(STATIC)/cv.yaml
 HTMLTEMPLATE = $(STATIC)/template.html
